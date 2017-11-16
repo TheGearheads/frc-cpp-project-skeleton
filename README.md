@@ -1,5 +1,9 @@
 # frc-cpp-project-skeleton
-This is a skeleton for FRC C++ projects using CMake.  Fork me!  Example usage:
+This is a skeleton for FRC C++ projects using CMake.  Fork me!
+
+This fork is adds configuration options to enable it to work on Windows. See project-config.cmake.
+
+Example usage:
 ```
 cmake .
 make # make your robot code
