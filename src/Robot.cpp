@@ -1,8 +1,18 @@
-#include "Robot.h"
+#include "WPILib.h"
 
-Robot::Robot()
-{
-    std::cout << "Constructed a Robot!" << std::endl;
-}
+class Robot: public IterativeRobot {
+private:
+	void RobotInit() {}
+
+	void AutonomousInit() {}
+	void AutonomousPeriodic() {}
+
+	void TeleopInit() {}
+	void TeleopPeriodic() {}
+
+	void TestInit() {}
+	void TestPeriodic() {}
+
+};
 
 START_ROBOT_CLASS(Robot)
